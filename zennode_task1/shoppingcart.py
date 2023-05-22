@@ -57,11 +57,12 @@ else:
 print(f"Total:{Total}")
 print("\n")
 #print(f"Totalquantity:{totalquantity}")
+
 #discount
 if  (Total>0) :
     
    if Total>200:
-    dis=Total*0.1
+    dis=Total-10
    elif item_qty<10:
     dis=item_qty*0.05
    elif totalquantity>20:
